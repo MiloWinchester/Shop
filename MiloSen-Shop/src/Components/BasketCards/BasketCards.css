@@ -1,0 +1,92 @@
+.basketcard-container{
+    width: 950px;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    color: white;
+    background-color: #1e1d1d;
+    border: 1px solid #ffab3d;
+    border-radius: 5px;
+    font-family: Roboto;
+}
+.basketcard-container img{
+    width: 350px;
+    height: 300px;
+    border-radius: 3px;
+}
+.basketcard-details{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+.basketcard-details h2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.basketcard-category{
+    color: #ffab3d;
+    font-size: 20px;
+}
+.Bicon-rate{
+    color: #fadf00;
+    font-size: 30px;
+}
+.basketcard-comment{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.basketcard-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+.basketcard-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Bbtn1{
+    width: 50px;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #009393;
+    box-shadow: 0px 0px 5px 0px #009393;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+.Bbtn1:hover{
+    cursor: pointer;
+    background-color: #009393;
+    border: 1px solid transparent;
+    color: #1e1d1d;
+    box-shadow: none;
+}
+.Bbtn2{
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #fadf00;
+    box-shadow: 0px 0px 5px 0px #fadf00;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.Bbtn2:hover{
+    cursor: pointer;
+    background-color: #fadf00;
+    border: 1px solid transparent;
+    color: #1e1d1d;
+    box-shadow: none;
+}

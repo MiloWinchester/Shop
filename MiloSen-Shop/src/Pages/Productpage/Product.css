@@ -1,0 +1,57 @@
+.shopcontainer{
+    width: 100%;
+    height: auto;
+    background-color: #1b1919;
+}
+.shop-title{
+    font-size: 50px;
+    color: #ffab3d;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.shop-cards{
+    height: auto;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.cards-slide{
+    transform: translateX(-334px);
+}
+.prev-btn{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.252);
+    width: 40px;
+    height: 70px;
+    font-size: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding-top: 7px;
+}
+.next-btn{
+    position: absolute;
+    right: 0;
+    top: 45%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.252);
+    width: 40px;
+    height: 70px;
+    font-size: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding-top: 7px;
+}
+.prev-btn:hover , .next-btn:hover{
+    background-color: rgba(255, 255, 255, 0.352);
+    cursor: pointer;
+}
+.none-btn{
+    display: none;
+}

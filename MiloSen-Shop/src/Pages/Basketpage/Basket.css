@@ -1,0 +1,16 @@
+.basket-container{
+    width: 100%;
+    height: auto;
+    background-color: #1b1919;
+}
+.basket-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.basketlist{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

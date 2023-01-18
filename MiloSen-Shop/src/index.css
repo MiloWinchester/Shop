@@ -1,0 +1,208 @@
+html , body , #root{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Square;
+    src: url(Fonts/Square-peg/Square_Peg/SquarePeg-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(Fonts/Roboto/Roboto-Light.ttf);
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: #1e1d1d;
+    color: white;
+    padding: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.nav{
+    font-size: 40px;
+    display: flex;
+    color: #ffffff;
+    font-family: Square;
+    transition: 0.2s;
+}
+.nav small{
+    color: #ffab3d;
+}
+.navicons{
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 45px;
+    font-size: 25px;
+}
+.navicons div{
+    color: white;
+    transition: 0.2s;
+}
+.nav:hover{
+    cursor: pointer;
+    color: #009393;
+}
+.navicons div:hover{
+    cursor: pointer;
+    color: #ffab3d;
+}
+.menu-bar{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    gap: 45px;
+    pointer-events: none;
+    font-family: Square;
+}
+.menu{
+    pointer-events: all;
+    cursor: pointer;
+}
+.menu-item a{
+    color: white;
+    transition: 0.2s ease;
+}
+.menu-item a:hover{
+    color: #ffab3d;
+}
+.menu-item{
+    opacity: 0;
+    transition: 0.5s ease;
+    transition-delay: 0;
+}
+.menu-bar:hover{
+    pointer-events: all;
+    transition-delay: 0s;
+}
+.menu-bar:hover .menu-item{
+    opacity: 1;
+}
+.menu-item:nth-child(10){
+    transition-delay: 0.45s;
+}
+.menu-item:nth-child(9){
+    transition-delay: 0.4s;
+}
+.menu-item:nth-child(8){
+    transition-delay: 0.35s;
+}
+.menu-item:nth-child(7){
+    transition-delay: 0.3s;
+}
+.menu-item:nth-child(6){
+    transition-delay: 0.25s;
+}
+.menu-item:nth-child(5){
+    transition-delay: 0.2s;
+}
+.menu-item:nth-child(4){
+    transition-delay: 0.15s;
+}
+.menu-item:nth-child(3){
+    transition-delay: 0.1s;
+}
+.menu-item:nth-child(2){
+    transition-delay: 0.05s;
+}
+.menu-item:nth-child(1){
+    transition-delay: 0.0s;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 100px 50px 100px;
+    background-color: #1e1d1d;
+    color: white;
+    font-family: Roboto;
+}
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffab3d;
+}
+.footer-title{
+    font-size: 40px;
+    font-family: Square;
+    display: flex;
+}
+.footer-title small{
+    font-size: 20px;
+    color: #009393;
+}
+.footer-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.footer-btn button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    padding-top: 5px;
+    transition: 0.2s;
+}
+.footer-btn button:hover{
+    cursor: pointer;
+    color: #009393;
+    border: 1px solid #009393;
+}
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.footer-loca{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-loca div , .footer-loca div p{
+    font-size: 15px;
+    display: inline;
+    transition: 0.2s;
+}
+.footer-loca div:hover{
+    color: #ffab3d;
+    cursor: pointer;
+}
+.footer-loca div p:hover{
+    color: #009393;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-links p{
+    transition: 0.2s;
+}
+.footer-links p:hover{
+    color: #009393;
+    cursor: pointer;
+}
